@@ -1,0 +1,45 @@
+﻿  Source.cpp
+d:\2 semestr\oaip\kursach\kursach\source.cpp(28): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(31): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\2 semestr\oaip\kursach\kursach\source.cpp(49): warning C4305: =: усечение из "double" в "float"
+d:\2 semestr\oaip\kursach\kursach\source.cpp(50): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(53): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(56): warning C4305: =: усечение из "double" в "float"
+d:\2 semestr\oaip\kursach\kursach\source.cpp(57): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(60): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(63): warning C4305: =: усечение из "double" в "float"
+d:\2 semestr\oaip\kursach\kursach\source.cpp(95): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(99): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(100): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(104): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(105): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(106): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(107): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(127): warning C4305: =: усечение из "double" в "float"
+d:\2 semestr\oaip\kursach\kursach\source.cpp(136): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(137): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(141): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(142): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(143): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(143): warning C4305: =: усечение из "double" в "float"
+d:\2 semestr\oaip\kursach\kursach\source.cpp(144): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(144): warning C4305: =: усечение из "double" в "float"
+d:\2 semestr\oaip\kursach\kursach\source.cpp(170): warning C4305: =: усечение из "double" в "float"
+d:\2 semestr\oaip\kursach\kursach\source.cpp(174): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(175): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(179): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(180): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(181): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(181): warning C4305: =: усечение из "double" в "float"
+d:\2 semestr\oaip\kursach\kursach\source.cpp(182): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(182): warning C4305: =: усечение из "double" в "float"
+d:\2 semestr\oaip\kursach\kursach\source.cpp(256): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(257): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(331): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+d:\2 semestr\oaip\kursach\kursach\source.cpp(339): warning C4804: <=: небезопасное использование типа "bool" в операции
+d:\2 semestr\oaip\kursach\kursach\source.cpp(358): warning C4715: startGame: значение возвращается не при всех путях выполнения
+  Kursach.vcxproj -> D:\2 semestr\OAIP\Kursach\Debug\Kursach.exe
