@@ -1,0 +1,13 @@
+F:\VS\Progect\PL\PL_LR1\LR1\bin\Debug\LR1.exe.config
+F:\VS\Progect\PL\PL_LR1\LR1\bin\Debug\LR1.exe
+F:\VS\Progect\PL\PL_LR1\LR1\bin\Debug\LR1.pdb
+F:\VS\Progect\PL\PL_LR1\LR1\obj\Debug\LR1.csprojAssemblyReference.cache
+F:\VS\Progect\PL\PL_LR1\LR1\obj\Debug\LR1.csproj.CoreCompileInputs.cache
+F:\VS\Progect\PL\PL_LR1\LR1\obj\Debug\LR1.exe
+F:\VS\Progect\PL\PL_LR1\LR1\obj\Debug\LR1.pdb
+F:\VS\Progect\PL\PL_LR1\LR1\obj\Debug\LR1.csproj.GenerateResource.cache
+F:\VS\Progect\PL\PL_LR1\LR1\obj\Debug\LR1.csproj.CopyComplete
+F:\VS\Progect\PL\PL_LR1\LR1\bin\Debug\ru-Ru\LR1.resources.dll
+F:\VS\Progect\PL\PL_LR1\LR1\obj\Debug\LR1.Properties.Resource.ru-Ru.resources
+F:\VS\Progect\PL\PL_LR1\LR1\obj\Debug\ru-Ru\LR1.resources.dll
+F:\VS\Progect\PL\PL_LR1\LR1\obj\Debug\LR1.Properties.Resource.resources
