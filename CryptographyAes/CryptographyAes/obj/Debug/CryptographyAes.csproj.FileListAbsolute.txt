@@ -1,0 +1,6 @@
+F:\VS\Progect\CryptographyAes\CryptographyAes\bin\Debug\CryptographyAes.dll
+F:\VS\Progect\CryptographyAes\CryptographyAes\bin\Debug\CryptographyAes.pdb
+F:\VS\Progect\CryptographyAes\CryptographyAes\obj\Debug\CryptographyAes.csprojAssemblyReference.cache
+F:\VS\Progect\CryptographyAes\CryptographyAes\obj\Debug\CryptographyAes.csproj.CoreCompileInputs.cache
+F:\VS\Progect\CryptographyAes\CryptographyAes\obj\Debug\CryptographyAes.dll
+F:\VS\Progect\CryptographyAes\CryptographyAes\obj\Debug\CryptographyAes.pdb
