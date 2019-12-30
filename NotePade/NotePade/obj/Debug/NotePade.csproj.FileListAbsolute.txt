@@ -1,0 +1,38 @@
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.csprojAssemblyReference.cache
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.Form1.resources
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.Properties.Resources.resources
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.csproj.GenerateResource.cache
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.csproj.CoreCompileInputs.cache
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\bin\Debug\NotePade.exe.config
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\bin\Debug\NotePade.exe
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\bin\Debug\NotePade.pdb
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.exe
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.pdb
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.Calculator.resources
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.csproj.CopyComplete
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\bin\Debug\ru-RU\NotePade.resources.dll
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.SettingsForm.resources
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.Form1.ru-RU.resources
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\obj\Debug\ru-RU\NotePade.resources.dll
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.SettingsForm.ru-RU.resources
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.Resource.resources
+F:\VS\Progect\c# WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.Resource.ru-RU.resources
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\bin\Debug\NotePade.exe.config
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\bin\Debug\NotePade.exe
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\bin\Debug\NotePade.pdb
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\bin\Debug\ru-RU\NotePade.resources.dll
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.csprojAssemblyReference.cache
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.Calculator.resources
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.Form1.resources
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.Properties.Resources.resources
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.Resource.resources
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.SettingsForm.resources
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.Form1.ru-RU.resources
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.Resource.ru-RU.resources
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.SettingsForm.ru-RU.resources
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.csproj.GenerateResource.cache
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.csproj.CoreCompileInputs.cache
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\ru-RU\NotePade.resources.dll
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.csproj.CopyComplete
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.exe
+F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.pdb
