@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Prediction1" xml:space="preserve">
+    <value>Сегодня следует проявлять бдительность во всем.</value>
+  </data>
+  <data name="Prediction10" xml:space="preserve">
+    <value>Обстоятельства в этот день не всегда будут развиваться в вашу пользу, что будет вас раздражать и страшно нервировать.</value>
+  </data>
+  <data name="Prediction11" xml:space="preserve">
+    <value>Сегодня не исключены конфликты, продолжительные размолвки не смогут быть улажены, некоторые люди могут ополчиться против вас.</value>
+  </data>
+  <data name="Prediction12" xml:space="preserve">
+    <value>Вероятно, ваше поведение не всем понравится или ваши действия не будут понимать окружающие.</value>
+  </data>
+  <data name="Prediction13" xml:space="preserve">
+    <value>В этот день сохраняйте самообладание, не спешите выяснять отношения, действуйте поступательно, учитывая собственные интересы.</value>
+  </data>
+  <data name="Prediction14" xml:space="preserve">
+    <value>Сегодняшний день порадует вас приятными событиями и милыми сердцу встречами.</value>
+  </data>
+  <data name="Prediction15" xml:space="preserve">
+    <value>Окружающие будут рады помочь вам, окажут поддержку в решении спорных вопросов.</value>
+  </data>
+  <data name="Prediction16" xml:space="preserve">
+    <value>В этот день занимайтесь насущными делами, решайте проблемы не только свои, но и близких.</value>
+  </data>
+  <data name="Prediction17" xml:space="preserve">
+    <value>Не исключены резкие изменения в настроении, эмоциональные срывы. Постарайтесь не замыкаться в себе, избегайте внутреннего беспокойства.</value>
+  </data>
+  <data name="Prediction18" xml:space="preserve">
+    <value>Сегодня не будьте излишне требовательными к окружающим. </value>
+  </data>
+  <data name="Prediction19" xml:space="preserve">
+    <value>Сегодня следует обратить внимание на свое здоровье. Возможно обострение хронических заболеваний.</value>
+  </data>
+  <data name="Prediction2" xml:space="preserve">
+    <value>В течение дня может возникнуть множество мелких вопросов, которые необходимо решать, но не всегда найдутся на это силы и желание.</value>
+  </data>
+  <data name="Prediction20" xml:space="preserve">
+    <value>Сегодня вам предстоит много общаться. Первая половина дня пройдет в любви, согласии, взаимопонимании.</value>
+  </data>
+  <data name="Prediction3" xml:space="preserve">
+    <value>Сегодня не следует излишне доверять окружающим, ваша доброта может сыграть против вас.</value>
+  </data>
+  <data name="Prediction4" xml:space="preserve">
+    <value>Придется пожалеть о доверчивости и еще раз убедиться в том, кто ваш настоящий друг.</value>
+  </data>
+  <data name="Prediction5" xml:space="preserve">
+    <value>На любовном фронте без перемен, конфликтных ситуаций не предвидится.</value>
+  </data>
+  <data name="Prediction6" xml:space="preserve">
+    <value>Сегодня действуйте обдуманно, ни в коем случае не импульсивно.</value>
+  </data>
+  <data name="Prediction7" xml:space="preserve">
+    <value>Своими резкими действиями можно вызвать негативную реакцию со стороны близких.</value>
+  </data>
+  <data name="Prediction8" xml:space="preserve">
+    <value>Основные мероприятия и встречи запланируйте после полудня.</value>
+  </data>
+  <data name="Prediction9" xml:space="preserve">
+    <value>Вероятно, вечером вам предстоят некоторые расходы, но покупки порадуют, прослужат длительное время.</value>
+  </data>
+</root>
