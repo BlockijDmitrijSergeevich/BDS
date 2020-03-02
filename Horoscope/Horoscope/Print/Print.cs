@@ -40,9 +40,14 @@ namespace Horoscope
         {
             Printer.PrintEx1PeriodAfter(Text);
         }
+
         public void PrintEx2()
         {
             Printer.PrintEx2(Text);
+        }
+        public void PrintEx2ForecastData()
+        {
+            Printer.PrintEx2ForecastData(Text);
         }
         public void PrintEx3()
         {

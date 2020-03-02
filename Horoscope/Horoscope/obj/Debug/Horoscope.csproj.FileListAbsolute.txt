@@ -16,3 +16,4 @@ F:\GitHub\BDS\Horoscope\Horoscope\obj\Debug\Horoscope.csproj.GenerateResource.ca
 F:\GitHub\BDS\Horoscope\Horoscope\obj\Debug\Horoscope.csproj.CoreCompileInputs.cache
 F:\GitHub\BDS\Horoscope\Horoscope\obj\Debug\Horoscope.exe
 F:\GitHub\BDS\Horoscope\Horoscope\obj\Debug\Horoscope.pdb
+F:\GitHub\BDS\Horoscope\Horoscope\obj\Debug\Horoscope.Properties.PredictionWeather.resources

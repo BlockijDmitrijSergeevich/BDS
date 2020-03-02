@@ -15,7 +15,9 @@ namespace Horoscope.Interface
         void PrintEx1DatePrediction(string text);
         void PrintEx1PeriodBefor(string text);
         void PrintEx1PeriodAfter(string text);
+
         void PrintEx2(string text);
+        void PrintEx2ForecastData(string text);
         void PrintEx3(string text);
         void PrintLeave(string text);
     }

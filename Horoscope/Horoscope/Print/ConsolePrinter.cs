@@ -43,6 +43,10 @@ namespace Horoscope
         {
             Console.WriteLine("Прогноз погоды на сегодня, неделю, месяц по дату");
         }
+        public void PrintEx2ForecastData(string text)
+        {
+            Console.WriteLine("Введите дату прогноза(год, месяц, число)");
+        }
         //Ex3//
         public void PrintEx3(string text)
         {

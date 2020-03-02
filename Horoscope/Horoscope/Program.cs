@@ -59,7 +59,18 @@ namespace Horoscope
                             }
                         case 2:
                             {
+                                string tempForecastData;
+                                bool tempCalendarRes;
+
                                 print.PrintEx2();
+                                print.PrintEx2ForecastData();
+                                tempForecastData = input.ReadLine();
+                                Calendar calendar = new Calendar(tempForecastData);
+                                tempCalendarRes = calendar.ValidDate();
+                                PredictWeather predictWeather = new PredictWeather(tempCalendarRes);
+                                string resWeather = predictWeather.SearchWeather();
+                                print.PrintAnswer(resWeather);
+
                                 break;
                             }
                         case 3:
