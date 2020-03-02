@@ -23,38 +23,44 @@ namespace Horoscope
                     switch (i)
                     {
                         case 1:
-                            { 
-                                string tempData, tempPredict, tempPeriodBefor, tempPeriodAfter;
-                                bool tempCalendarRes;
+                            {
+                                string tempData, tempPredict;
+                                bool tempCalendarRes, tempCalendarResPred;
 
                                 print.PrintEx1();
                                 tempData = input.ReadLine();
                                 Calendar calendar = new Calendar(tempData);
                                 tempCalendarRes = calendar.ValidDate();
-                                Prediction prediction = new Prediction(tempCalendarRes);
-                                string res = prediction.SearchPredict();
-                                print.PrintAnswer(res);
-
                                 print.PrintEx1DatePrediction();
                                 tempPredict = input.ReadLine();
                                 Calendar calendarPredict = new Calendar(tempPredict);
-                                tempCalendarRes = calendarPredict.ValidDate();
-                                Prediction predictionData = new Prediction(tempCalendarRes);
-                                string resData = predictionData.SearchPredict();
-                                print.PrintAnswer(resData);
-
-                                print.PrintEx1PeriodBefor();
-                                tempPeriodBefor = input.ReadLine();
-                                Calendar calPeriodBefor = new Calendar(tempPeriodBefor);
-                                tempCalendarRes = calPeriodBefor.ValidDate();
-                                print.PrintEx1PeriodAfter();
-                                tempPeriodAfter = input.ReadLine();
-                                Calendar calPeriodAfter = new Calendar(tempPeriodAfter);
-                                tempCalendarRes = calPeriodAfter.ValidDate();
-                                Prediction predictionPeriod = new Prediction(tempCalendarRes);
-                                string resPeriod = predictionData.SearchPredict();
-                                print.PrintAnswer(resData);
-
+                                tempCalendarResPred = calendarPredict.ValidDate();
+                                print.PrintEx1Period();
+                                print.PrintEx1PeriodChoise();
+                                int tempI = int.Parse(input.ReadLine());
+                                if (tempI == 1)
+                                {
+                                    Prediction prediction = new Prediction(tempCalendarRes, tempCalendarResPred);
+                                    string resPrediction = prediction.SearchPredict();
+                                    print.PrintEx1PeriodToday();
+                                    print.PrintAnswer(resPrediction);
+                                }
+                                else if (tempI == 2)
+                                {
+                                    Prediction prediction = new Prediction(tempCalendarRes, tempCalendarResPred);
+                                    string resPrediction = prediction.SearchPredict();
+                                    print.PrintEx1PeriodWeek();
+                                    print.PrintAnswer(resPrediction);
+                                }
+                                else if (tempI == 3)
+                                {
+                                    Prediction prediction = new Prediction(tempCalendarRes, tempCalendarResPred);
+                                    string resPrediction = prediction.SearchPredict();
+                                    print.PrintEx1PeriodYear();
+                                    print.PrintAnswer(resPrediction);
+                                }
+                                else
+                                    break;
                                 break;
                             }
                         case 2:

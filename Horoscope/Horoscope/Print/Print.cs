@@ -32,15 +32,26 @@ namespace Horoscope
         {
             Printer.PrintEx1DatePrediction(Text);
         }
-        public void PrintEx1PeriodBefor()
+        public void PrintEx1Period()
         {
-            Printer.PrintEx1PeriodBefor(Text);
+            Printer.PrintEx1Period(Text);
         }
-        public void PrintEx1PeriodAfter()
+        public void PrintEx1PeriodChoise()
         {
-            Printer.PrintEx1PeriodAfter(Text);
+            Printer.PrintEx1PeriodChoise(Text);
         }
-
+        public void PrintEx1PeriodToday()
+        {
+            Printer.PrintEx1PeriodToday(Text);
+        }
+        public void PrintEx1PeriodWeek()
+        {
+            Printer.PrintEx1PeriodWeek(Text);
+        }
+        public void PrintEx1PeriodYear()
+        {
+            Printer.PrintEx1PeriodYear(Text);
+        }
         public void PrintEx2()
         {
             Printer.PrintEx2(Text);

@@ -9,16 +9,18 @@ namespace Horoscope
     class Prediction
     {
         public bool TempCalendarRes { get; set; }
-        public Prediction(bool tempCalendarRes)
+        public bool TempCalendarResPred { get; set; }
+        public Prediction(bool tempCalendarRes, bool tempCalendarResPred)
         {
             this.TempCalendarRes = tempCalendarRes;
+            this.TempCalendarResPred = tempCalendarResPred;
         }
       
         public string SearchPredict()
         {
             Print print = new Print(new ConsolePrinter());
 
-            if (TempCalendarRes)
+            if (TempCalendarRes && TempCalendarResPred)
             {
                 Random random = new Random();
                 int valueRnd = random.Next(1, 20);

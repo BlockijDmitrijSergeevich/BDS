@@ -19,7 +19,7 @@ namespace Horoscope
         }
         public void PrintMenu(string text)
         {
-            Console.WriteLine(" 1 - Предсказания по дате рождения на дату\n 2 - Прогноз погоды на сегодня, неделю, месяц по дату\n 3 - Вывод статистики по биллинг услугам\n 0 - Выход");
+            Console.WriteLine("1 - Предсказания по дате рождения на дату\n2 - Прогноз погоды на сегодня, неделю, месяц по дату\n3 - Вывод статистики по биллинг услугам\n0 - Выход");
         }
         //Ex1//
         public void PrintEx1(string text)
@@ -30,13 +30,25 @@ namespace Horoscope
         {
             Console.WriteLine("Введите дату предсказания(год, месяц, число): ");
         }
-        public void PrintEx1PeriodBefor(string text)
+        public void PrintEx1Period(string text)
         {
-            Console.WriteLine("Введите период(год, месяц, число)\nС: ");
+            Console.WriteLine("Выберите период предсказания: ");
         }
-        public void PrintEx1PeriodAfter(string text)
+        public void PrintEx1PeriodChoise(string text)
         {
-            Console.WriteLine("До: ");
+            Console.WriteLine("1 - На сегодня\n2 - На неделю\n3 - На год\n");
+        }
+        public void PrintEx1PeriodToday(string text)
+        {
+            Console.WriteLine("Предсказание на сегодня: ");
+        }
+        public void PrintEx1PeriodWeek(string text)
+        {
+            Console.WriteLine("Предсказание на неделю: ");
+        }
+        public void PrintEx1PeriodYear(string text)
+        {
+            Console.WriteLine("Предсказание на год: ");
         }
         //Ex2//
         public void PrintEx2(string text)
