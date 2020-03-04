@@ -29,7 +29,7 @@ namespace Horoscope
             }
             else
             {
-                print.PrintError();
+                print.PrintAnswer(Properties.Menu.PrintError);
                 return null;
             }
         }

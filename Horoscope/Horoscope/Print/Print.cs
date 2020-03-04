@@ -28,49 +28,9 @@ namespace Horoscope
         {
             Printer.PrintEx1(Text);
         }
-        public void PrintEx1DatePrediction()
-        {
-            Printer.PrintEx1DatePrediction(Text);
-        }
-        public void PrintEx1Period()
-        {
-            Printer.PrintEx1Period(Text);
-        }
         public void PrintEx1PeriodChoise()
         {
             Printer.PrintEx1PeriodChoise(Text);
-        }
-        public void PrintEx1PeriodToday()
-        {
-            Printer.PrintEx1PeriodToday(Text);
-        }
-        public void PrintEx1PeriodWeek()
-        {
-            Printer.PrintEx1PeriodWeek(Text);
-        }
-        public void PrintEx1PeriodYear()
-        {
-            Printer.PrintEx1PeriodYear(Text);
-        }
-        public void PrintEx2()
-        {
-            Printer.PrintEx2(Text);
-        }
-        public void PrintEx2ForecastData()
-        {
-            Printer.PrintEx2ForecastData(Text);
-        }
-        public void PrintEx3()
-        {
-            Printer.PrintEx3(Text);
-        }
-        public void PrintLeave()
-        {
-            Printer.PrintLeave(Text);
-        }
-        public void PrintError()
-        {
-            Printer.PrintError(Text);
         }
     }
 }

@@ -17,3 +17,4 @@ F:\GitHub\BDS\Horoscope\Horoscope\obj\Debug\Horoscope.csproj.CoreCompileInputs.c
 F:\GitHub\BDS\Horoscope\Horoscope\obj\Debug\Horoscope.exe
 F:\GitHub\BDS\Horoscope\Horoscope\obj\Debug\Horoscope.pdb
 F:\GitHub\BDS\Horoscope\Horoscope\obj\Debug\Horoscope.Properties.PredictionWeather.resources
+F:\GitHub\BDS\Horoscope\Horoscope\obj\Debug\Horoscope.Properties.Menu.resources
