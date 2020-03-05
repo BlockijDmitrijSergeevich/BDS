@@ -20,6 +20,10 @@ namespace Horoscope
         {
             Printer.PrintAnswer(text);
         }
+        public void Clear()
+        {
+            Printer.Clear();
+        }
         public void PrintMenu()
         {
             Printer.PrintMenu(Text);
@@ -28,9 +32,21 @@ namespace Horoscope
         {
             Printer.PrintEx1(Text);
         }
-        public void PrintEx1PeriodChoise()
+        public void PrintPeriodChoise()
         {
-            Printer.PrintEx1PeriodChoise(Text);
+            Printer.PrintPeriodChoise(Text);
+        }
+        public void PrintPeriodChoise2()
+        {
+            Printer.PrintPeriodChoise2(Text);
+        }
+        public void PrintChoisePeriodDate()
+        {
+            Printer.PrintChoisePeriodDate(Text);
+        }
+        public void PrintEx(Exception ex)
+        {
+            Printer.PrintEx(ex);
         }
     }
 }

@@ -11,13 +11,34 @@ namespace Horoscope
         Print print = new Print(new ConsolePrinter());
         public bool TempCalendarRes { get; set; }
         public string Date { get; set; }
-        Random rng { get; set;}
+        Random rng { get; set;}        
         public PredictWeather(bool tempCalendarRes, string date)
         {
             this.TempCalendarRes = tempCalendarRes;
             this.Date = date;
             rng = new Random(GenerKey());
-        }           
+        }
+        DateTime DateNow { get; set; }
+        public int CountDays { get; set; }
+        public List<string> Res { get; set; }
+        public PredictWeather(int countDays)
+        {
+            this.CountDays = countDays;
+            this.Res = GenerWeather();
+        }
+        public List<string> GenerWeather()
+        {
+            List<string> vs = new List<string>() { };
+            DateNow = DateTime.Now;
+            for (int i = 1; i <= CountDays; i++)
+            {
+                DateNow = DateNow.AddDays(1);
+                Random rng = new Random(DateNow.Day);
+                int valueRnd = rng.Next(1, 20);
+                vs.Add(Properties.PredictionWeather.ResourceManager.GetString("weather" + valueRnd));
+            }
+            return vs;
+        }
         public string SearchWeather()
         {
             

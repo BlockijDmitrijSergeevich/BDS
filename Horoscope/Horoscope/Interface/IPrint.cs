@@ -11,6 +11,10 @@ namespace Horoscope.Interface
         void PrintAnswer(string text);
         void PrintMenu(string text);
         void PrintEx1(string text);
-        void PrintEx1PeriodChoise(string text);
+        void PrintPeriodChoise(string text);
+        void PrintPeriodChoise2(string text);
+        void PrintChoisePeriodDate(string text);
+        void PrintEx(Exception ex);
+        void Clear();
     }
 }

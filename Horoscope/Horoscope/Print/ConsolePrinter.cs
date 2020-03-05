@@ -13,6 +13,10 @@ namespace Horoscope
         {
             Console.WriteLine(text);
         }
+        public void PrintEx(Exception ex)
+        {
+            Console.WriteLine(ex);
+        }
         public void PrintMenu(string text)
         {
             Console.WriteLine("1 - Предсказания по дате рождения на дату\n2 - Прогноз погоды на сегодня, неделю, месяц по дату\n3 - Вывод статистики по биллинг услугам\n0 - Выход");
@@ -22,10 +26,22 @@ namespace Horoscope
         {
             Console.WriteLine("Предсказания по дате рождения на дату.\nВведите дату рождения(год, месяц, число): ");
         }
-        public void PrintEx1PeriodChoise(string text)
+        public void PrintChoisePeriodDate(string text)
         {
-            Console.WriteLine("1 - На сегодня\n2 - На неделю\n3 - На год\n");
+            Console.WriteLine("1 - Ввести дату\n2 - Выьрать период");
         }
-        
+        public void PrintPeriodChoise(string text)
+        {
+            Console.WriteLine("1 - На сегодня\n2 - На неделю\n3 - На месяц\n");
+        }
+        public void PrintPeriodChoise2(string text)
+        {
+            Console.WriteLine("1 - На сегодня\n2 - На неделю\n3 - На месяц\n");
+        }
+        public void Clear()
+        {
+            Console.Clear();
+        }
+
     }
 }

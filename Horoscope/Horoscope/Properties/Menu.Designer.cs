@@ -61,56 +61,20 @@ namespace Horoscope.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Введите дату предсказания(год, месяц, число):.
+        /// </summary>
+        internal static string PrintDatePrediction {
+            get {
+                return ResourceManager.GetString("PrintDatePrediction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Ошибка ввода.
         /// </summary>
         internal static string PrintError {
             get {
                 return ResourceManager.GetString("PrintError", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Введите дату предсказания(год, месяц, число):.
-        /// </summary>
-        internal static string PrintEx1DatePrediction {
-            get {
-                return ResourceManager.GetString("PrintEx1DatePrediction", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Выберите период предсказания:.
-        /// </summary>
-        internal static string PrintEx1Period {
-            get {
-                return ResourceManager.GetString("PrintEx1Period", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Предсказание на сегодня:.
-        /// </summary>
-        internal static string PrintEx1PeriodToday {
-            get {
-                return ResourceManager.GetString("PrintEx1PeriodToday", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Предсказание на неделю:.
-        /// </summary>
-        internal static string PrintEx1PeriodWeek {
-            get {
-                return ResourceManager.GetString("PrintEx1PeriodWeek", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Предсказание на год:.
-        /// </summary>
-        internal static string PrintEx1PeriodYear {
-            get {
-                return ResourceManager.GetString("PrintEx1PeriodYear", resourceCulture);
             }
         }
         
@@ -124,15 +88,6 @@ namespace Horoscope.Properties {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Введите дату прогноза(год, месяц, число).
-        /// </summary>
-        internal static string PrintEx2ForecastData {
-            get {
-                return ResourceManager.GetString("PrintEx2ForecastData", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Ищет локализованную строку, похожую на Вывод статистики по биллинг услугам.
         /// </summary>
         internal static string PrintEx3 {
@@ -142,11 +97,65 @@ namespace Horoscope.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Введите дату прогноза(неделя, месяц, число).
+        /// </summary>
+        internal static string PrintForecastData {
+            get {
+                return ResourceManager.GetString("PrintForecastData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Выход.
         /// </summary>
         internal static string PrintLeave {
             get {
                 return ResourceManager.GetString("PrintLeave", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Выберите период предсказания:.
+        /// </summary>
+        internal static string PrintPeriod {
+            get {
+                return ResourceManager.GetString("PrintPeriod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Предсказание на месяц:.
+        /// </summary>
+        internal static string PrintPeriodMonth {
+            get {
+                return ResourceManager.GetString("PrintPeriodMonth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Предсказание на сегодня:.
+        /// </summary>
+        internal static string PrintPeriodToday {
+            get {
+                return ResourceManager.GetString("PrintPeriodToday", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Предсказание на неделю:.
+        /// </summary>
+        internal static string PrintPeriodWeek {
+            get {
+                return ResourceManager.GetString("PrintPeriodWeek", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Предсказание на год:.
+        /// </summary>
+        internal static string PrintPeriodYear {
+            get {
+                return ResourceManager.GetString("PrintPeriodYear", resourceCulture);
             }
         }
     }
