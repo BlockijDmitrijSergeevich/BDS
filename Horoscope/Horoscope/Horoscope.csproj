@@ -47,6 +47,7 @@
     <Compile Include="Input\ConsoleInput.cs" />
     <Compile Include="Input\Input.cs" />
     <Compile Include="Interface\IInput.cs" />
+    <Compile Include="IOF.cs" />
     <Compile Include="Prediction.cs" />
     <Compile Include="PredictWeather.cs" />
     <Compile Include="Print\ConsolePrinter.cs" />

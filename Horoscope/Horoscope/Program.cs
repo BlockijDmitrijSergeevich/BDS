@@ -9,6 +9,8 @@ namespace Horoscope
 {
     class Program
     {
+        public static List<string> Statement = new List<string>();
+        
         static void Main(string[] args)
         {
             Print print = new Print(new ConsolePrinter());
@@ -16,15 +18,17 @@ namespace Horoscope
             try
             {
 
-                print.PrintMenu();
-                int i = int.Parse(input.ReadLine());
+                int i;
                 do
                 {
+                    print.PrintMenu();
+                    i = int.Parse(input.ReadLine());
                     switch (i)
                     {
                         case 1:
                             {
-
+                                print.Clear();
+                                Prediction prediction = new Prediction();
                                 string tempData, tempPredict;
                                 bool tempCalendarRes, tempCalendarResPred;
 
@@ -45,9 +49,9 @@ namespace Horoscope
                                         {
                                             if (tempCalendarRes && tempCalendarResPred)
                                             {
-                                                Prediction prediction = new Prediction();
                                                 string resPrediction = prediction.SearchPredict();
                                                 print.PrintAnswer(Properties.Menu.PrintPeriodToday);
+                                                Statement.Add(resPrediction);
                                                 print.PrintAnswer(resPrediction);
                                             }
                                             else
@@ -61,9 +65,9 @@ namespace Horoscope
                                         {
                                             if (tempCalendarRes && tempCalendarResPred)
                                             {
-                                                Prediction prediction = new Prediction();
                                                 string resPrediction = prediction.SearchPredict();
                                                 print.PrintAnswer(Properties.Menu.PrintPeriodWeek);
+                                                Statement.Add(resPrediction);
                                                 print.PrintAnswer(resPrediction);
                                             }
                                             else
@@ -77,9 +81,9 @@ namespace Horoscope
                                         {
                                             if (tempCalendarRes && tempCalendarResPred)
                                             {
-                                                Prediction prediction = new Prediction();
                                                 string resPrediction = prediction.SearchPredict();
                                                 print.PrintAnswer(Properties.Menu.PrintPeriodMonth);
+                                                Statement.Add(resPrediction);
                                                 print.PrintAnswer(resPrediction);
                                             }
                                             else
@@ -99,6 +103,7 @@ namespace Horoscope
                             }
                         case 2:
                             {
+
                                 string tempForecastData;
                                 bool tempCalendarRes;
 
@@ -117,6 +122,7 @@ namespace Horoscope
                                             {
                                                 PredictWeather predictWeather = new PredictWeather(tempCalendarRes, tempForecastData);
                                                 string resWeather = predictWeather.SearchWeather();
+                                                Statement.Add(resWeather);
                                                 print.PrintAnswer(resWeather);
                                             }
                                             break;
@@ -128,55 +134,74 @@ namespace Horoscope
                                             DateTime dateTime;
                                             print.PrintPeriodChoise2();
                                             int tempI = int.Parse(input.ReadLine());
-                                            if (tempI == 1)
+                                            switch (tempI)
                                             {
-                                                print.PrintAnswer(Properties.Menu.PrintPeriodToday);
-                                                
-                                                predictWeek = new PredictWeather(1);
-                                                resWeatherWeek = predictWeek.GenerWeather();
-                                                dateTime = DateTime.Now;
-                                                foreach (var p in resWeatherWeek)
-                                                {
-                                                    dateTime = dateTime.AddDays(1);
-                                                    print.PrintAnswer(dateTime + " " + p);
-                                                }
-                                            }
-                                            else if (tempI == 2)
-                                            {
-                                                print.PrintAnswer(Properties.Menu.PrintPeriodWeek);
-                                                predictWeek = new PredictWeather(7);
-                                                resWeatherWeek = predictWeek.GenerWeather();
-                                                dateTime = DateTime.Now;                                                
-                                                foreach (var p in resWeatherWeek)
-                                                {
-                                                    dateTime = dateTime.AddDays(1);
-                                                    print.PrintAnswer(dateTime + " " + p);
-                                                }
-                                            }
-                                            else if (tempI == 3)
-                                            {
-                                                print.PrintAnswer(Properties.Menu.PrintPeriodMonth);
-                                                predictWeek = new PredictWeather(30);
-                                                resWeatherWeek = predictWeek.GenerWeather();
-                                                dateTime = DateTime.Now;
-                                                foreach (var p in resWeatherWeek)
-                                                {
-                                                    dateTime = dateTime.AddDays(1);
-                                                    print.PrintAnswer(dateTime + " " + p);
-                                                }
+                                                case 1:
+                                                    {
+                                                        print.PrintAnswer(Properties.Menu.PrintPeriodToday);
+
+                                                        predictWeek = new PredictWeather(1);
+                                                        resWeatherWeek = predictWeek.GenerWeather();
+                                                        dateTime = DateTime.Now;
+                                                        foreach (var p in resWeatherWeek)
+                                                        {
+                                                            dateTime = dateTime.AddDays(1);
+                                                            Statement.Add(dateTime + " " + p);
+                                                            print.PrintAnswer(dateTime + " " + p);
+                                                        }
+                                                        break;
+                                                    }
+                                                case 2:
+                                                    {
+                                                        print.PrintAnswer(Properties.Menu.PrintPeriodWeek);
+                                                        predictWeek = new PredictWeather(7);
+                                                        resWeatherWeek = predictWeek.GenerWeather();
+                                                        dateTime = DateTime.Now;
+                                                        foreach (var p in resWeatherWeek)
+                                                        {
+                                                            dateTime = dateTime.AddDays(1);
+                                                            Statement.Add(dateTime + " " + p);
+                                                            print.PrintAnswer(dateTime + " " + p);
+                                                        }
+                                                        break;
+                                                    }
+                                                case 3:
+                                                    {
+                                                        print.PrintAnswer(Properties.Menu.PrintPeriodMonth);
+                                                        predictWeek = new PredictWeather(30);
+                                                        resWeatherWeek = predictWeek.GenerWeather();
+                                                        dateTime = DateTime.Now;
+                                                        foreach (var p in resWeatherWeek)
+                                                        {
+                                                            dateTime = dateTime.AddDays(1);
+                                                            Statement.Add(dateTime + " " + p);
+                                                            print.PrintAnswer(dateTime + " " + p);
+                                                        }
+                                                        break;
+                                                    }
+                                                default:
+                                                    {
+                                                        print.PrintAnswer(Properties.Menu.PrintError);
+                                                        break;
+                                                    }
                                             }
                                             break;
                                         }
                                     default:
                                         {
+                                            print.PrintAnswer(Properties.Menu.PrintError);
                                             break;
                                         }
-                                }                               
+                                }
                                 break;
                             }
                         case 3:
                             {
                                 print.PrintAnswer(Properties.Menu.PrintEx3);
+                                foreach (var item in Statement)
+                                {
+                                    print.PrintAnswer(item);                                
+                                }
                                 break;
                             }
                         case 0:
@@ -186,18 +211,21 @@ namespace Horoscope
                             }
                         default:
                             {
+                                print.PrintAnswer(Properties.Menu.PrintError);
                                 break;
                             }
+
                     }
+                    print.PrintAnswer("\n\t\t\tНажмите любую клавишу...");
                     input.ReadLine();
                     print.Clear();
-                }
-                while (i != 0);
+                } while (i != 0);
             }
             catch (Exception ex)
             {
                 print.PrintEx(ex);
             }
-        }
+
+        }        
     }
 }

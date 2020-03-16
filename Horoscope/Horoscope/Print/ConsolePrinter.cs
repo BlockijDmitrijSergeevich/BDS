@@ -28,7 +28,7 @@ namespace Horoscope
         }
         public void PrintChoisePeriodDate(string text)
         {
-            Console.WriteLine("1 - Ввести дату\n2 - Выьрать период");
+            Console.WriteLine("1 - Ввести дату\n2 - Выбрать период");
         }
         public void PrintPeriodChoise(string text)
         {
