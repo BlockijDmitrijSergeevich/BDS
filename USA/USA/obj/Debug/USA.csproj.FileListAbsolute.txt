@@ -1,0 +1,11 @@
+F:\GitHub\BDS\USA\USA\obj\Debug\USA.csprojAssemblyReference.cache
+F:\GitHub\BDS\USA\USA\obj\Debug\USA.Form1.resources
+F:\GitHub\BDS\USA\USA\obj\Debug\USA.Properties.Files.resources
+F:\GitHub\BDS\USA\USA\obj\Debug\USA.Properties.Resources.resources
+F:\GitHub\BDS\USA\USA\obj\Debug\USA.csproj.GenerateResource.cache
+F:\GitHub\BDS\USA\USA\obj\Debug\USA.csproj.CoreCompileInputs.cache
+F:\GitHub\BDS\USA\USA\bin\Debug\USA.exe.config
+F:\GitHub\BDS\USA\USA\bin\Debug\USA.exe
+F:\GitHub\BDS\USA\USA\bin\Debug\USA.pdb
+F:\GitHub\BDS\USA\USA\obj\Debug\USA.exe
+F:\GitHub\BDS\USA\USA\obj\Debug\USA.pdb
