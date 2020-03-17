@@ -1,0 +1,10 @@
+F:\GitHub\BDS\MutualExclusion\MutualExclusion\bin\Debug\MutualExclusion.exe.config
+F:\GitHub\BDS\MutualExclusion\MutualExclusion\bin\Debug\MutualExclusion.exe
+F:\GitHub\BDS\MutualExclusion\MutualExclusion\bin\Debug\MutualExclusion.pdb
+F:\GitHub\BDS\MutualExclusion\MutualExclusion\obj\Debug\MutualExclusion.csprojAssemblyReference.cache
+F:\GitHub\BDS\MutualExclusion\MutualExclusion\obj\Debug\MutualExclusion.Form1.resources
+F:\GitHub\BDS\MutualExclusion\MutualExclusion\obj\Debug\MutualExclusion.Properties.Resources.resources
+F:\GitHub\BDS\MutualExclusion\MutualExclusion\obj\Debug\MutualExclusion.csproj.GenerateResource.cache
+F:\GitHub\BDS\MutualExclusion\MutualExclusion\obj\Debug\MutualExclusion.csproj.CoreCompileInputs.cache
+F:\GitHub\BDS\MutualExclusion\MutualExclusion\obj\Debug\MutualExclusion.exe
+F:\GitHub\BDS\MutualExclusion\MutualExclusion\obj\Debug\MutualExclusion.pdb
