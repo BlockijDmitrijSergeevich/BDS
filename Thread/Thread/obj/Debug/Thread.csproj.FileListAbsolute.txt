@@ -1,0 +1,7 @@
+F:\GitHub\BDS\Thread\Thread\bin\Debug\Thread.exe.config
+F:\GitHub\BDS\Thread\Thread\bin\Debug\Thread.exe
+F:\GitHub\BDS\Thread\Thread\bin\Debug\Thread.pdb
+F:\GitHub\BDS\Thread\Thread\obj\Debug\Thread.csprojAssemblyReference.cache
+F:\GitHub\BDS\Thread\Thread\obj\Debug\Thread.csproj.CoreCompileInputs.cache
+F:\GitHub\BDS\Thread\Thread\obj\Debug\Thread.exe
+F:\GitHub\BDS\Thread\Thread\obj\Debug\Thread.pdb
