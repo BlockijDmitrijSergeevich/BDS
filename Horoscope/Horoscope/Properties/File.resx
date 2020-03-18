@@ -117,37 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="PrintDatePrediction" xml:space="preserve">
-    <value>Введите дату предсказания(год, месяц, число):</value>
+  <data name="Predict" xml:space="preserve">
+    <value>Prediction.txt</value>
   </data>
-  <data name="PrintError" xml:space="preserve">
-    <value>Ошибка ввода</value>
-  </data>
-  <data name="PrintEx2" xml:space="preserve">
-    <value>Прогноз погоды на сегодня, неделю, месяц по дату</value>
-  </data>
-  <data name="PrintEx3" xml:space="preserve">
-    <value>Вывод статистики по биллинг услугам</value>
-  </data>
-  <data name="PrintForecastData" xml:space="preserve">
-    <value>Введите дату прогноза(год, месяц, число)</value>
-  </data>
-  <data name="PrintLeave" xml:space="preserve">
-    <value>Выход</value>
-  </data>
-  <data name="PrintPeriod" xml:space="preserve">
-    <value>Выберите период предсказания:</value>
-  </data>
-  <data name="PrintPeriodMonth" xml:space="preserve">
-    <value>Предсказание на месяц:</value>
-  </data>
-  <data name="PrintPeriodToday" xml:space="preserve">
-    <value>Предсказание на сегодня:</value>
-  </data>
-  <data name="PrintPeriodWeek" xml:space="preserve">
-    <value>Предсказание на неделю:</value>
-  </data>
-  <data name="PrintPeriodYear" xml:space="preserve">
-    <value>Предсказание на год:</value>
+  <data name="PredictWeather" xml:space="preserve">
+    <value>PredictionWeather.txt</value>
   </data>
 </root>

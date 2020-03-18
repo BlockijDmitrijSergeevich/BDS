@@ -8,6 +8,7 @@ namespace Horoscope
 {
     class Prediction
     {
+        readonly IOF iOF = new IOF(Properties.File.Predict);
         public Prediction() { }
 
         public string SearchPredict()
@@ -17,7 +18,8 @@ namespace Horoscope
             {
                 Random random = new Random();
                 int valueRnd = random.Next(1, 20);
-                string mesPredict = Properties.Prediction.ResourceManager.GetString("Prediction" + valueRnd);
+                string[] predict = iOF.IOPredict();
+                string mesPredict = predict[valueRnd - 1];
                 return mesPredict;
             }
             catch

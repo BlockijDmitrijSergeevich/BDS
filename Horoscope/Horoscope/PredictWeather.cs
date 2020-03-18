@@ -8,6 +8,7 @@ namespace Horoscope
 {
     class PredictWeather
     {
+        readonly IOF iOF = new IOF(Properties.File.PredictWeather);
         Print print = new Print(new ConsolePrinter());
         public bool TempCalendarRes { get; set; }
         public string Date { get; set; }
@@ -34,8 +35,9 @@ namespace Horoscope
             {
                 DateNow = DateNow.AddDays(1);
                 Random rng = new Random(DateNow.Day);
-                int valueRnd = rng.Next(1, 20);
-                vs.Add(Properties.PredictionWeather.ResourceManager.GetString("weather" + valueRnd));
+                int valueRnd = rng.Next(1, 20);                
+                string[] weather = iOF.IOPredict();
+                vs.Add(weather[valueRnd - 1]);
             }
             return vs;
         }
@@ -45,7 +47,8 @@ namespace Horoscope
             if (TempCalendarRes)
             {
                 int valueRnd = rng.Next(1, 20);
-                string mesPredict = Properties.PredictionWeather.ResourceManager.GetString("weather" + valueRnd);
+                string[] weather = iOF.IOPredict();
+                string mesPredict = weather[valueRnd - 1];
                 return mesPredict;
             }
             else

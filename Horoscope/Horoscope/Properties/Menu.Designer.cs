@@ -97,7 +97,7 @@ namespace Horoscope.Properties {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Введите дату прогноза(неделя, месяц, число).
+        ///   Ищет локализованную строку, похожую на Введите дату прогноза(год, месяц, число).
         /// </summary>
         internal static string PrintForecastData {
             get {
