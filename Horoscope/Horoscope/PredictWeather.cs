@@ -37,7 +37,7 @@ namespace Horoscope
                 Random rng = new Random(DateNow.Day);
                 int valueRnd = rng.Next(1, 20);                
                 string[] weather = iOF.IOPredict();
-                vs.Add(weather[valueRnd - 1]);
+                vs.Add(weather[valueRnd - 1]);                
             }
             return vs;
         }

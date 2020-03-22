@@ -9,17 +9,17 @@ namespace Horoscope
 {
     class IOF
     {
-        public string path { get; set; }
+        public string Path { get; set; }
         public IOF(string path)
         {
-            this.path = path;
+            this.Path = path;
         }
         
         public string[] IOPredict()
         {
-            string tempPath = ReadAll(path);
-            string[] sPath = tempPath.Split(new char[] { '\n' });
-            return sPath;
+            string tempPath = ReadAll(Path);
+            string[] predict = tempPath.Split(new char[] { '\n' });
+            return predict;
         }
 
         private static string ReadAll(string path)
