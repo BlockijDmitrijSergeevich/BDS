@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DB737C4C-1DF2-4145-83BD-8CB9E944DEA7}</ProjectGuid>
+    <ProjectGuid>{C9A1D6F7-98B0-4179-B218-646B6DE5C2FB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Thread</RootNamespace>
-    <AssemblyName>Thread</AssemblyName>
+    <RootNamespace>ThreadLowFast</RootNamespace>
+    <AssemblyName>ThreadLowFast</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

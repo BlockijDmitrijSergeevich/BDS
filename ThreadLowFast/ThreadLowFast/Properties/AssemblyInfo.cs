@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("Thread")]
+[assembly: AssemblyTitle("ThreadLowFast")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Thread")]
+[assembly: AssemblyProduct("ThreadLowFast")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("db737c4c-1df2-4145-83bd-8cb9e944dea7")]
+[assembly: Guid("c9a1d6f7-98b0-4179-b218-646b6de5c2fb")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
