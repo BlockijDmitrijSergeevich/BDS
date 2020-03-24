@@ -17,6 +17,7 @@ namespace Horoscope
         
         public string[] IOPredict()
         {
+            RemoveRepeat(Path);
             string tempPath = ReadAll(Path);
             string[] predict = tempPath.Split(new char[] { '\n' });
             return predict;
@@ -28,6 +29,10 @@ namespace Horoscope
             {
                 return sr.ReadToEnd();
             }
+        }
+        private static void RemoveRepeat(string path)
+        {
+            File.WriteAllLines(path, File.ReadAllLines(path).Distinct());
         }
     }
 }
