@@ -11,9 +11,9 @@ namespace ThreadLowFast
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Size: ");
+            Console.WriteLine("Введите размер: ");
             double[] a = Fill();
-            Console.WriteLine("K: ");
+            Console.WriteLine("Введите сложность(K): ");
             int k = ConsoleInt();
 
             var time = DateTime.Now;
@@ -41,7 +41,6 @@ namespace ThreadLowFast
         {
             double[] b = new double[a.Length];
             Work(a, b, k, 0, a.Length);
-
         }
         static void FastWork(double[] a, int k)
         {
