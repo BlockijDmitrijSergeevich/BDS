@@ -1,0 +1,10 @@
+F:\GitHub\BDS\MemoryOrganization\Memory Organization\obj\Debug\Memory Organization.csprojAssemblyReference.cache
+F:\GitHub\BDS\MemoryOrganization\Memory Organization\obj\Debug\Memory_Organization.Form1.resources
+F:\GitHub\BDS\MemoryOrganization\Memory Organization\obj\Debug\Memory_Organization.Properties.Resources.resources
+F:\GitHub\BDS\MemoryOrganization\Memory Organization\obj\Debug\Memory Organization.csproj.GenerateResource.cache
+F:\GitHub\BDS\MemoryOrganization\Memory Organization\obj\Debug\Memory Organization.csproj.CoreCompileInputs.cache
+F:\GitHub\BDS\MemoryOrganization\Memory Organization\bin\Debug\Memory Organization.exe.config
+F:\GitHub\BDS\MemoryOrganization\Memory Organization\bin\Debug\Memory Organization.exe
+F:\GitHub\BDS\MemoryOrganization\Memory Organization\bin\Debug\Memory Organization.pdb
+F:\GitHub\BDS\MemoryOrganization\Memory Organization\obj\Debug\Memory Organization.exe
+F:\GitHub\BDS\MemoryOrganization\Memory Organization\obj\Debug\Memory Organization.pdb

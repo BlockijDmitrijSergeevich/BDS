@@ -1,0 +1,10 @@
+F:\GitHub\BDS\Page Substitution Algorithms\PSA\bin\Debug\PSA.exe.config
+F:\GitHub\BDS\Page Substitution Algorithms\PSA\bin\Debug\PSA.exe
+F:\GitHub\BDS\Page Substitution Algorithms\PSA\bin\Debug\PSA.pdb
+F:\GitHub\BDS\Page Substitution Algorithms\PSA\obj\Debug\PSA.csprojAssemblyReference.cache
+F:\GitHub\BDS\Page Substitution Algorithms\PSA\obj\Debug\PSA.Form1.resources
+F:\GitHub\BDS\Page Substitution Algorithms\PSA\obj\Debug\PSA.Properties.Resources.resources
+F:\GitHub\BDS\Page Substitution Algorithms\PSA\obj\Debug\PSA.csproj.GenerateResource.cache
+F:\GitHub\BDS\Page Substitution Algorithms\PSA\obj\Debug\PSA.csproj.CoreCompileInputs.cache
+F:\GitHub\BDS\Page Substitution Algorithms\PSA\obj\Debug\PSA.exe
+F:\GitHub\BDS\Page Substitution Algorithms\PSA\obj\Debug\PSA.pdb

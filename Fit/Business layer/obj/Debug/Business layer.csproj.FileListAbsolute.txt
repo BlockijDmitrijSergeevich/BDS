@@ -1,0 +1,6 @@
+F:\GitHub\BDS\Fit\Business layer\bin\Debug\Business layer.dll
+F:\GitHub\BDS\Fit\Business layer\bin\Debug\Business layer.pdb
+F:\GitHub\BDS\Fit\Business layer\obj\Debug\Business layer.csprojAssemblyReference.cache
+F:\GitHub\BDS\Fit\Business layer\obj\Debug\Business layer.csproj.CoreCompileInputs.cache
+F:\GitHub\BDS\Fit\Business layer\obj\Debug\Business layer.dll
+F:\GitHub\BDS\Fit\Business layer\obj\Debug\Business layer.pdb

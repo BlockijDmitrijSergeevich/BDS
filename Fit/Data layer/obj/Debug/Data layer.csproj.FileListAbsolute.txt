@@ -1,0 +1,9 @@
+F:\GitHub\BDS\Fit\Data layer\bin\Debug\Data layer.dll
+F:\GitHub\BDS\Fit\Data layer\bin\Debug\Data layer.pdb
+F:\GitHub\BDS\Fit\Data layer\bin\Debug\Business layer.dll
+F:\GitHub\BDS\Fit\Data layer\bin\Debug\Business layer.pdb
+F:\GitHub\BDS\Fit\Data layer\obj\Debug\Data layer.csprojAssemblyReference.cache
+F:\GitHub\BDS\Fit\Data layer\obj\Debug\Data layer.csproj.CoreCompileInputs.cache
+F:\GitHub\BDS\Fit\Data layer\obj\Debug\Data layer.csproj.CopyComplete
+F:\GitHub\BDS\Fit\Data layer\obj\Debug\Data layer.dll
+F:\GitHub\BDS\Fit\Data layer\obj\Debug\Data layer.pdb

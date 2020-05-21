@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Horoscope.DB;
 using Horoscope.Input;
 
 namespace Horoscope
@@ -13,6 +14,8 @@ namespace Horoscope
         
         static void Main(string[] args)
         {
+            DBFill.MainDb();
+
             Print print = new Print(new ConsolePrinter());
             Input.Input input = new Input.Input(new ConsoleInput());
             try
@@ -226,6 +229,6 @@ namespace Horoscope
                 print.PrintEx(ex);
             }
 
-        }        
+        } 
     }
 }

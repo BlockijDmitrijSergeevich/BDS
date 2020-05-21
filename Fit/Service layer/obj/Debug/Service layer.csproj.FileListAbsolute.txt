@@ -1,0 +1,6 @@
+F:\GitHub\BDS\Fit\Service layer\bin\Debug\Service layer.dll
+F:\GitHub\BDS\Fit\Service layer\bin\Debug\Service layer.pdb
+F:\GitHub\BDS\Fit\Service layer\obj\Debug\Service layer.csprojAssemblyReference.cache
+F:\GitHub\BDS\Fit\Service layer\obj\Debug\Service layer.csproj.CoreCompileInputs.cache
+F:\GitHub\BDS\Fit\Service layer\obj\Debug\Service layer.dll
+F:\GitHub\BDS\Fit\Service layer\obj\Debug\Service layer.pdb
