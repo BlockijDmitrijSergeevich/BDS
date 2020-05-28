@@ -1,0 +1,7 @@
+F:\GitHub\BDS\Matrix\Matrix\bin\Debug\Matrix.exe.config
+F:\GitHub\BDS\Matrix\Matrix\bin\Debug\Matrix.exe
+F:\GitHub\BDS\Matrix\Matrix\bin\Debug\Matrix.pdb
+F:\GitHub\BDS\Matrix\Matrix\obj\Debug\Matrix.csprojAssemblyReference.cache
+F:\GitHub\BDS\Matrix\Matrix\obj\Debug\Matrix.csproj.CoreCompileInputs.cache
+F:\GitHub\BDS\Matrix\Matrix\obj\Debug\Matrix.exe
+F:\GitHub\BDS\Matrix\Matrix\obj\Debug\Matrix.pdb
