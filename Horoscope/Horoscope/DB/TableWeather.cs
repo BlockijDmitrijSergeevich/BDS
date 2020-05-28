@@ -10,5 +10,6 @@ namespace Horoscope.DB
     {
         public int Id { get; set; }
         public string Weather { get; set; }
+        public string Horoscope { get; set; }
     }
 }

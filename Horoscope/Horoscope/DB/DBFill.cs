@@ -1,30 +1,39 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
+using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
+using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Horoscope.DB
 {
-    class DBFill
+    public class DBFill
     {
-        public static void MainDb()
+        public DBFill()
+        {
+            MainDb();
+        }
+        public string MainDb()
         {
             using (var context = new MyDb())
-            {
-                var weather = new TableWeather()
+            {                
+                var apartments = context.TableWeather.Where(a => a.Id == 13);
+
+                string res = null;
+                foreach (var apart in apartments)
                 {
-                    Weather = "Test1",
-                };
-                context.TableWeather.Add(weather);
-                context.SaveChanges();
-                var predict = new TablePredict()
+                    return res = apart.Weather;
+                }
+                foreach (var apart in apartments)
                 {
-                    Predict = "Test2",
-                };
-                context.TablePredict.Add(predict);
-                context.SaveChanges();
+                    return res = apart.Horoscope;
+                }
             }
+            return null;
         }
     }
 }

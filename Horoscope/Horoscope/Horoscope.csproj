@@ -199,7 +199,6 @@
     <Compile Include="Calendar.cs" />
     <Compile Include="DB\DBFill.cs" />
     <Compile Include="DB\MyDb.cs" />
-    <Compile Include="DB\TablePredict.cs" />
     <Compile Include="DB\TableWeather.cs" />
     <Compile Include="Properties\File.Designer.cs">
       <AutoGen>True</AutoGen>

@@ -13,7 +13,6 @@ namespace Horoscope
         public MyDb() : base("DbConnection"){ }
 
         public DbSet<TableWeather> TableWeather { get; set; }
-        public DbSet<TablePredict> TablePredict { get; set; }
 
     }
 }

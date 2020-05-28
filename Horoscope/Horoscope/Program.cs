@@ -14,7 +14,7 @@ namespace Horoscope
         
         static void Main(string[] args)
         {
-            DBFill.MainDb();
+            DBFill dB = new DBFill();
 
             Print print = new Print(new ConsolePrinter());
             Input.Input input = new Input.Input(new ConsoleInput());

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Horoscope
 {
-    class PredictWeather
+    public class PredictWeather
     {
         readonly IOF iOF = new IOF(Properties.File.PredictWeather);
         Print print = new Print(new ConsolePrinter());
@@ -41,6 +41,7 @@ namespace Horoscope
             }
             return vs;
         }
+
         public string SearchWeather()
         {
             
