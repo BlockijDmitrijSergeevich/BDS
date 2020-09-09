@@ -1,0 +1,11 @@
+E:\Git Hub\BDS\CalculateForTest\CalculateForTest\bin\Debug\CalculateForTest.exe.config
+E:\Git Hub\BDS\CalculateForTest\CalculateForTest\bin\Debug\CalculateForTest.exe
+E:\Git Hub\BDS\CalculateForTest\CalculateForTest\bin\Debug\CalculateForTest.pdb
+E:\Git Hub\BDS\CalculateForTest\CalculateForTest\obj\Debug\CalculateForTest.csprojAssemblyReference.cache
+E:\Git Hub\BDS\CalculateForTest\CalculateForTest\obj\Debug\CalculateForTest.Form1.resources
+E:\Git Hub\BDS\CalculateForTest\CalculateForTest\obj\Debug\CalculateForTest.Properties.Resources.resources
+E:\Git Hub\BDS\CalculateForTest\CalculateForTest\obj\Debug\CalculateForTest.csproj.GenerateResource.cache
+E:\Git Hub\BDS\CalculateForTest\CalculateForTest\obj\Debug\CalculateForTest.csproj.CoreCompileInputs.cache
+E:\Git Hub\BDS\CalculateForTest\CalculateForTest\obj\Debug\CalculateForTest.exe
+E:\Git Hub\BDS\CalculateForTest\CalculateForTest\obj\Debug\CalculateForTest.pdb
+E:\Git Hub\BDS\CalculateForTest\CalculateForTest\obj\Debug\CalculateForTest.AboutBox1.resources
