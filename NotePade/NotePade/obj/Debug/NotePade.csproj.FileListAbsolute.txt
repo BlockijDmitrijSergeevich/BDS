@@ -36,3 +36,22 @@ F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\ru-RU\NotePade.resources.
 F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.csproj.CopyComplete
 F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.exe
 F:\VS\Progect\c#WF\Kursach\NotePade\NotePade\obj\Debug\NotePade.pdb
+E:\Git Hub\BDS\NotePade\NotePade\obj\Debug\NotePade.csprojAssemblyReference.cache
+E:\Git Hub\BDS\NotePade\NotePade\obj\Debug\NotePade.Calculator.resources
+E:\Git Hub\BDS\NotePade\NotePade\obj\Debug\NotePade.Form1.resources
+E:\Git Hub\BDS\NotePade\NotePade\obj\Debug\NotePade.Properties.Resources.resources
+E:\Git Hub\BDS\NotePade\NotePade\obj\Debug\NotePade.Resource.resources
+E:\Git Hub\BDS\NotePade\NotePade\obj\Debug\NotePade.SettingsForm.resources
+E:\Git Hub\BDS\NotePade\NotePade\obj\Debug\NotePade.Form1.ru-RU.resources
+E:\Git Hub\BDS\NotePade\NotePade\obj\Debug\NotePade.Resource.ru-RU.resources
+E:\Git Hub\BDS\NotePade\NotePade\obj\Debug\NotePade.SettingsForm.ru-RU.resources
+E:\Git Hub\BDS\NotePade\NotePade\obj\Debug\NotePade.csproj.GenerateResource.cache
+E:\Git Hub\BDS\NotePade\NotePade\obj\Debug\NotePade.csproj.CoreCompileInputs.cache
+E:\Git Hub\BDS\NotePade\NotePade\obj\Debug\NotePade.exe
+E:\Git Hub\BDS\NotePade\NotePade\obj\Debug\NotePade.pdb
+E:\Git Hub\BDS\NotePade\NotePade\bin\Debug\NotePade.exe.config
+E:\Git Hub\BDS\NotePade\NotePade\bin\Debug\NotePade.exe
+E:\Git Hub\BDS\NotePade\NotePade\bin\Debug\NotePade.pdb
+E:\Git Hub\BDS\NotePade\NotePade\bin\Debug\ru-RU\NotePade.resources.dll
+E:\Git Hub\BDS\NotePade\NotePade\obj\Debug\ru-RU\NotePade.resources.dll
+E:\Git Hub\BDS\NotePade\NotePade\obj\Debug\NotePade.csproj.CopyComplete

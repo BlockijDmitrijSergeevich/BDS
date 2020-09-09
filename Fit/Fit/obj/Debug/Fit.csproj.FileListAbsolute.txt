@@ -11,3 +11,16 @@ F:\GitHub\BDS\Fit\Fit\obj\Debug\Fit.pdb
 F:\GitHub\BDS\Fit\Fit\bin\Debug\Business layer.dll
 F:\GitHub\BDS\Fit\Fit\bin\Debug\Business layer.pdb
 F:\GitHub\BDS\Fit\Fit\obj\Debug\Fit.csproj.CopyComplete
+E:\Git Hub\BDS\Fit\Fit\bin\Debug\Fit.exe.config
+E:\Git Hub\BDS\Fit\Fit\bin\Debug\Fit.exe
+E:\Git Hub\BDS\Fit\Fit\bin\Debug\Fit.pdb
+E:\Git Hub\BDS\Fit\Fit\bin\Debug\Business layer.dll
+E:\Git Hub\BDS\Fit\Fit\bin\Debug\Business layer.pdb
+E:\Git Hub\BDS\Fit\Fit\obj\Debug\Fit.csprojAssemblyReference.cache
+E:\Git Hub\BDS\Fit\Fit\obj\Debug\Fit.Form1.resources
+E:\Git Hub\BDS\Fit\Fit\obj\Debug\Fit.Properties.Resources.resources
+E:\Git Hub\BDS\Fit\Fit\obj\Debug\Fit.csproj.GenerateResource.cache
+E:\Git Hub\BDS\Fit\Fit\obj\Debug\Fit.csproj.CoreCompileInputs.cache
+E:\Git Hub\BDS\Fit\Fit\obj\Debug\Fit.csproj.CopyComplete
+E:\Git Hub\BDS\Fit\Fit\obj\Debug\Fit.exe
+E:\Git Hub\BDS\Fit\Fit\obj\Debug\Fit.pdb
