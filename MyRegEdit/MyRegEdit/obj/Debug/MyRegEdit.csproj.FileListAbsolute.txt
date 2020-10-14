@@ -1,0 +1,10 @@
+E:\Git Hub\BDS\MyRegEdit\MyRegEdit\bin\Debug\MyRegEdit.exe.config
+E:\Git Hub\BDS\MyRegEdit\MyRegEdit\bin\Debug\MyRegEdit.exe
+E:\Git Hub\BDS\MyRegEdit\MyRegEdit\bin\Debug\MyRegEdit.pdb
+E:\Git Hub\BDS\MyRegEdit\MyRegEdit\obj\Debug\MyRegEdit.csprojAssemblyReference.cache
+E:\Git Hub\BDS\MyRegEdit\MyRegEdit\obj\Debug\MyRegEdit.Form1.resources
+E:\Git Hub\BDS\MyRegEdit\MyRegEdit\obj\Debug\MyRegEdit.Properties.Resources.resources
+E:\Git Hub\BDS\MyRegEdit\MyRegEdit\obj\Debug\MyRegEdit.csproj.GenerateResource.cache
+E:\Git Hub\BDS\MyRegEdit\MyRegEdit\obj\Debug\MyRegEdit.csproj.CoreCompileInputs.cache
+E:\Git Hub\BDS\MyRegEdit\MyRegEdit\obj\Debug\MyRegEdit.exe
+E:\Git Hub\BDS\MyRegEdit\MyRegEdit\obj\Debug\MyRegEdit.pdb
