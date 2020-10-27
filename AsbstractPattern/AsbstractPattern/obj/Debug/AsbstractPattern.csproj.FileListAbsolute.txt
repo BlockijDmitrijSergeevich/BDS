@@ -1,0 +1,7 @@
+E:\Git Hub\BDS\AsbstractPattern\AsbstractPattern\bin\Debug\AsbstractPattern.exe.config
+E:\Git Hub\BDS\AsbstractPattern\AsbstractPattern\bin\Debug\AsbstractPattern.exe
+E:\Git Hub\BDS\AsbstractPattern\AsbstractPattern\bin\Debug\AsbstractPattern.pdb
+E:\Git Hub\BDS\AsbstractPattern\AsbstractPattern\obj\Debug\AsbstractPattern.csprojAssemblyReference.cache
+E:\Git Hub\BDS\AsbstractPattern\AsbstractPattern\obj\Debug\AsbstractPattern.csproj.CoreCompileInputs.cache
+E:\Git Hub\BDS\AsbstractPattern\AsbstractPattern\obj\Debug\AsbstractPattern.exe
+E:\Git Hub\BDS\AsbstractPattern\AsbstractPattern\obj\Debug\AsbstractPattern.pdb
