@@ -1,0 +1,7 @@
+E:\Git Hub\BDS\CryptoRSA\CryptoRSA\bin\Debug\CryptoRSA.exe.config
+E:\Git Hub\BDS\CryptoRSA\CryptoRSA\bin\Debug\CryptoRSA.exe
+E:\Git Hub\BDS\CryptoRSA\CryptoRSA\bin\Debug\CryptoRSA.pdb
+E:\Git Hub\BDS\CryptoRSA\CryptoRSA\obj\Debug\CryptoRSA.csprojAssemblyReference.cache
+E:\Git Hub\BDS\CryptoRSA\CryptoRSA\obj\Debug\CryptoRSA.csproj.CoreCompileInputs.cache
+E:\Git Hub\BDS\CryptoRSA\CryptoRSA\obj\Debug\CryptoRSA.exe
+E:\Git Hub\BDS\CryptoRSA\CryptoRSA\obj\Debug\CryptoRSA.pdb
