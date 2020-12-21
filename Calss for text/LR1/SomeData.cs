@@ -18,7 +18,7 @@ namespace LR1
         public int numOfRepetitions;
         public SortedSet<int> pageNumbers = new SortedSet<int>();
     }
-   /* public class MySortedDictionary : SortedDictionary<string, MyValue>
+    public class MySortedDictionary : SortedDictionary<string, MyValue>
     {
         public void Add(string word, int numOfRepetitions, SortedSet<int> pageNumbers)
         {
@@ -27,5 +27,5 @@ namespace LR1
             val.pageNumbers = pageNumbers;
             Add(word.ToLower(), val);
         }
-    }*/
+    }
 }
