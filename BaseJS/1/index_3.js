@@ -14,7 +14,20 @@ let month = [
 ];
 
 function getSeason(params) {
-    return `${month[params - 1]}`;
+    params++;
+    if (params == 12 || params <= 2) {
+        return 'Зима'
+    }
+    if (params > 2 || params <= 5) {
+        return 'Весна'
+    }
+    if (params > 5 || params <= 8) {
+        return 'Лето'
+    }
+    if (params >  8|| params <= 11) {
+        return 'Осень'
+    }
+    return 'Error'
 }
 
 console.log(getSeason(1));
